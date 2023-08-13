@@ -188,3 +188,4 @@ def rentals_by_customer(customer_username: str, cursor):
 print(rentals_by_customer("user1", cursor=cursor))
 
 conn.commit()
+conn.close()
